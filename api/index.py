@@ -19,7 +19,7 @@ def idea(creds: HTTPAuthorizationCredentials = Depends(clerk_guard)):
     # - Apply user-specific limits or customization
     
     client = OpenAI()
-    prompt = [{"role": "user", "content": "Reply with a new business idea for AI Agents for ETF Investing, formatted with headings, sub-headings and bullet points"}]
+    prompt = [{"role": "user", "content": "Reply with a new business idea to use AI Agents for ETF Investing, formatted with headings, sub-headings and bullet points"}]
     stream = client.chat.completions.create(model="gpt-5-nano", messages=prompt, stream=True)
 
     def event_stream():

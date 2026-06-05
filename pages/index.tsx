@@ -10,7 +10,7 @@ export default function Home() {
         {/* Navigation */}
         <nav className="flex justify-between items-center mb-12">
           <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
-            IdeaGen Pro
+            ETFInvesting Pro
           </h1>
           <div>
             <SignedOut>
@@ -39,10 +39,10 @@ export default function Home() {
           <h2 className="text-6xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-6">
             Generate Your Next
             <br />
-            Big Business Idea
-          </h2>
+            Big Idea for ETF Investing
+          </h2>ß
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-            Harness the power of AI to discover innovative business opportunities tailored for the AI agent economy
+            Harness the power of AI to discover innovative investing opportunities tailored for the AI agent economy
           </p>
           
           {/* Pricing Preview */}
