@@ -40,7 +40,7 @@ export default function Home() {
             Generate Your Next
             <br />
             Big Idea for ETF Investing
-          </h2>ß
+          </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
             Harness the power of AI to discover innovative investing opportunities tailored for the AI agent economy
           </p>
